@@ -1,5 +1,5 @@
 # 💫 About Me:
-👋 Hi, I’m @xainy75<br>👀 I’m interested in Data, Programming language, visualization and kaggle<br>🌱 I’m currently learning Mangodb, python, R, Sql, and visualization tools<br>💞️ I’m looking to collaborate on ...<br>📫 How to reach me on linkedin profile : https://www.linkedin.com/in/zain-ul-abidin-b387a1381/<br>😄 Pronouns: ...<br>⚡ Fun fact: ... I am also a sketch artist 
+👋 Hi, I’m Zain Ul Abidin, I am Data Analyst and interested in all thing using python, R, and Data Science<br>👀 I’m interested in Data, Programming language, visualization, Git & Github  and kaggle<br>🌱 I’m currently learning Mangodb, python, R, Sql, and visualization tools<br>💞️ I’m looking to collaborate on ...<br>📫 How to reach me on linkedin profile : https://www.linkedin.com/in/zain-ul-abidin-b387a1381/<br>😄 Pronouns: ...<br>⚡ Fun fact: ... I am also a sketch artist 
 
 
 ## 🌐 Socials:

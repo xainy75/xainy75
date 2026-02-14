@@ -61,8 +61,8 @@ for ((i=0; i<=days; i++)); do
             export GIT_AUTHOR_DATE="$commit_datetime"
             export GIT_COMMITTER_DATE="$commit_datetime"
             
-            # Create commit
-            git add contributions.txt
+            # Create commit (use -f to force add ignored file)
+            git add -f contributions.txt
             git commit -m "Contribution: $commit_datetime" --quiet
             
             commit_count=$((commit_count + 1))

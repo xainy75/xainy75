@@ -33,8 +33,8 @@ def create_commit(date, commit_count=1):
         os.environ['GIT_AUTHOR_DATE'] = date_str
         os.environ['GIT_COMMITTER_DATE'] = date_str
         
-        # Create git commit
-        os.system('git add contributions.txt')
+        # Create git commit (use -f to force add ignored file)
+        os.system('git add -f contributions.txt')
         os.system(f'git commit -m "Contribution: {date_str}" --quiet')
         
         print(f'✓ Created commit for {date_str}')

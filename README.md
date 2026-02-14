@@ -141,7 +141,7 @@ hobbies:
 ## 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xainy75&theme=tokyo-night&hide_border=false&area=true" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xainy75&theme=chartreuse-dark&hide_border=false&area=true" alt="Contribution Graph" />
 </div>
 
 <br/>

@@ -9,9 +9,17 @@ echo ""
 echo "This example will create backdated commits for the last 3 months."
 echo ""
 
-# Calculate dates (last 3 months)
+# Calculate dates (last 3 months) - cross-platform
 END_DATE=$(date +%Y-%m-%d)
-START_DATE=$(date -d "3 months ago" +%Y-%m-%d)
+
+# Check OS for date calculation
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    # macOS
+    START_DATE=$(date -v-3m +%Y-%m-%d)
+else
+    # Linux
+    START_DATE=$(date -d "3 months ago" +%Y-%m-%d)
+fi
 
 echo "📅 Date Range: $START_DATE to $END_DATE"
 echo ""

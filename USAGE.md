@@ -76,8 +76,8 @@ Continue? (yes/no): yes
 ### Features
 - ✅ Fast execution
 - ✅ Simple command-line interface
-- ✅ No dependencies
-- ✅ Linux/Mac only
+- ✅ Cross-platform (Linux & macOS)
+- ✅ Error checking and validation
 
 ### Usage
 

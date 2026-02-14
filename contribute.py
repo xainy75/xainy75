@@ -6,6 +6,7 @@ This script creates backdated commits to populate your GitHub contribution graph
 
 import os
 import sys
+import subprocess
 from datetime import datetime, timedelta
 import random
 
@@ -30,14 +31,20 @@ def create_commit(date, commit_count=1):
             f.write(f'Contribution on {date_str}\n')
         
         # Set environment variables for git commit date
-        os.environ['GIT_AUTHOR_DATE'] = date_str
-        os.environ['GIT_COMMITTER_DATE'] = date_str
+        env = os.environ.copy()
+        env['GIT_AUTHOR_DATE'] = date_str
+        env['GIT_COMMITTER_DATE'] = date_str
         
         # Create git commit (use -f to force add ignored file)
-        os.system('git add -f contributions.txt')
-        os.system(f'git commit -m "Contribution: {date_str}" --quiet')
-        
-        print(f'✓ Created commit for {date_str}')
+        try:
+            subprocess.run(['git', 'add', '-f', 'contributions.txt'], 
+                         check=True, capture_output=True, text=True)
+            subprocess.run(['git', 'commit', '-m', f'Contribution: {date_str}', '--quiet'],
+                         env=env, check=True, capture_output=True, text=True)
+            print(f'✓ Created commit for {date_str}')
+        except subprocess.CalledProcessError as e:
+            print(f'❌ Error creating commit for {date_str}: {e.stderr}')
+            sys.exit(1)
 
 def generate_contributions(start_date, end_date, frequency='random'):
     """
@@ -80,7 +87,15 @@ def generate_contributions(start_date, end_date, frequency='random'):
         current_date += timedelta(days=1)
     
     print(f"\n✨ Done! Created {total_commits} commits.")
-    print(f"📤 Push changes with: git push origin main --force")
+    
+    # Get current branch name
+    try:
+        result = subprocess.run(['git', 'branch', '--show-current'], 
+                              check=True, capture_output=True, text=True)
+        branch = result.stdout.strip()
+        print(f"📤 Push changes with: git push origin {branch} --force")
+    except subprocess.CalledProcessError:
+        print(f"📤 Push changes with: git push origin <branch> --force")
 
 def main():
     """Main function to run the contribution hack."""

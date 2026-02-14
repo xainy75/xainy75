@@ -162,6 +162,27 @@ hobbies:
 
 <br/>
 
+## 🎯 Contribution Graph Hack
+
+Want to fill your GitHub contribution graph? Use the provided scripts to create backdated commits!
+
+📚 **[View Full Usage Guide](USAGE.md)** for detailed instructions and examples.
+
+### 🚀 Quick Start
+
+```bash
+# Interactive Python script (recommended)
+python3 contribute.py
+
+# Quick bash script
+./hack_contributions.sh "2024-01-01" "2024-12-31"
+
+# Run the example (last 3 months)
+./example.sh
+```
+
+<br/>
+
 ---
 
 <div align="center">

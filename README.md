@@ -162,6 +162,66 @@ hobbies:
 
 <br/>
 
+## 🎯 Contribution Graph Hack
+
+Want to fill your GitHub contribution graph? Use the provided scripts to create backdated commits!
+
+### 🐍 Python Script (Interactive)
+
+```bash
+python3 contribute.py
+```
+
+**Features:**
+- Interactive configuration
+- Custom date ranges
+- Multiple frequency options (daily, random, weekdays)
+- 1-5 commits per day (configurable)
+
+### 🔧 Bash Script (Quick)
+
+```bash
+# Default: Random commits from 2023-01-01 to 2024-12-31
+./hack_contributions.sh
+
+# Custom date range
+./hack_contributions.sh "2023-06-01" "2024-02-14"
+```
+
+### 📋 How It Works
+
+1. Creates a `contributions.txt` file to track contributions
+2. Generates backdated commits with custom timestamps
+3. Uses Git's `GIT_AUTHOR_DATE` and `GIT_COMMITTER_DATE` environment variables
+4. Each commit is timestamped with a random time during the day
+
+### ⚠️ Important Notes
+
+- **Use at your own risk**: This modifies your Git history
+- Make sure you're on the correct branch before running
+- After running, push with `git push --force` (rewrites history)
+- Use this ethically - it's meant for fun/testing, not to misrepresent your actual work
+- Consider creating a separate repository for this experiment
+
+### 🚀 Quick Start
+
+```bash
+# Clone this repo (if not already cloned)
+git clone https://github.com/xainy75/xainy75.git
+cd xainy75
+
+# Run the Python script (recommended)
+python3 contribute.py
+
+# Or use the bash script
+./hack_contributions.sh "2024-01-01" "2024-12-31"
+
+# Push changes (use --force to rewrite history)
+git push origin main --force
+```
+
+<br/>
+
 ---
 
 <div align="center">

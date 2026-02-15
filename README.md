@@ -10,40 +10,72 @@
 
 ## 👨‍💻 About Me
 
+<div align="center">
+  
+![Profile Views](https://komarev.com/ghpvc/?username=xainy75&label=Profile%20Views&color=0e75b6&style=flat)
+[![Years Badge](https://badges.pufler.dev/years/xainy75?style=flat&color=blue&logo=github)](https://github.com/xainy75)
+[![Repos Badge](https://badges.pufler.dev/repos/xainy75?style=flat&color=blue&logo=github)](https://github.com/xainy75?tab=repositories)
+[![Commits Badge](https://badges.pufler.dev/commits/monthly/xainy75?style=flat&color=blue&logo=github)](https://github.com/xainy75)
+
+</div>
+
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
 ```yaml
-name: Zain Ul Abidin
-role: Data Analyst & Data Science Enthusiast
-location: Pakistan
-interests:
-  - Data Analysis & Visualization
-  - Machine Learning & AI
-  - Python, R, SQL
-  - Git & GitHub
-  - Kaggle Competitions
-currently_learning:
-  - MongoDB
-  - Advanced Python
-  - R Programming
-  - SQL & Database Management
-  - Data Visualization Tools
-hobbies:
-  - Sketch Art 🎨
-  - Data Exploration 📊
-  - Open Source Contribution 🚀
+👤 Profile:
+  name: Zain Ul Abidin
+  role: Data Analyst & Data Science Enthusiast
+  location: 🇵🇰 Pakistan
+  email: xainyblblack@gmail.com
+  status: Open for Opportunities 🚀
+
+💡 Core Expertise:
+  - 📊 Data Analysis & Visualization
+  - 🤖 Machine Learning & AI
+  - 🐍 Python | R | SQL
+  - 📈 Statistical Analysis
+  - 🔍 Data Mining & ETL
+
+🎓 Currently Learning:
+  - 🍃 MongoDB & NoSQL Databases
+  - 🐍 Advanced Python Techniques
+  - 📊 R Programming & Statistical Computing
+  - 💾 SQL & Database Optimization
+  - 📊 Advanced Data Visualization (Tableau, Power BI)
+  - 🧠 Deep Learning & Neural Networks
+
+🎯 Interests & Hobbies:
+  - 🎨 Sketch Art & Digital Design
+  - 📊 Data Exploration & Analysis
+  - 🚀 Open Source Contribution
+  - 🏆 Kaggle Competitions
+  - 📚 Technical Writing
 ```
 
 <br clear="right"/>
 
 ### 🎯 Current Focus
 
-- 🔭 Working on **Data Analytics Projects**
-- 🌱 Expanding expertise in **Machine Learning** and **Deep Learning**
-- 👯 Open to collaborate on **Data Science** and **AI/ML** projects
-- 💬 Ask me about **Python, R, Data Visualization, and Analytics**
+<div>
+
+- 🔭 Working on **Data Analytics Projects** and **Predictive Modeling**
+- 🌱 Expanding expertise in **Machine Learning**, **Deep Learning**, and **Big Data**
+- 👯 Open to collaborate on **Data Science**, **AI/ML** projects, and **Open Source**
+- 💬 Ask me about **Python, R, Data Visualization, Analytics, and Machine Learning**
 - 📫 Reach me at: **xainyblblack@gmail.com**
-- ⚡ Fun fact: I combine **data science** with **art** 🎨📊
+- 🎨 Fun fact: I combine **data science** with **sketch art** to visualize insights creatively! 📊✨
+- 💼 Looking for opportunities in **Data Analysis** and **Data Science** roles
+
+</div>
+
+### 📌 Quick Stats
+
+<div align="center">
+  
+![GitHub Followers](https://img.shields.io/github/followers/xainy75?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/xainy75?style=social)
+  
+</div>
 
 <br/>
 

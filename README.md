@@ -23,11 +23,11 @@
 
 ```yaml
 👤 Profile:
-  name: Zain Ul Abidin
-  role: Data Analyst & Data Science Enthusiast
-  location: 🇵🇰 Pakistan
-  email: xainyblblack@gmail.com
-  status: Open for Opportunities 🚀
+  Name: Zain Ul Abidin
+  Role: Data Analyst & Data Science Enthusiast
+  Location: 🇵🇰 Pakistan
+  Email: xainyblblack@gmail.com
+  Status: Open for Opportunities 🚀
 
 💡 Core Expertise:
   - 📊 Data Analysis & Visualization

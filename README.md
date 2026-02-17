@@ -41,7 +41,7 @@
   - 🐍 Advanced Python Techniques
   - 📊 R Programming & Statistical Computing
   - 💾 SQL & Database Optimization
-  - 📊 Advanced Data Visualization (Tableau, Power BI)
+  - 📊 Advanced Data Visualization (Tableau, Excel, Power BI)
   - 🧠 Deep Learning & Neural Networks
 
 🎯 Interests & Hobbies:
